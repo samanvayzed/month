@@ -1,0 +1,82 @@
+<soap:Body>
+    <GetSiteRoomTypeRequest>
+        <TransactionType>
+            <DataFrom>FromPMS</DataFrom>
+            <DataClassification>GetRoomTypeRequest</DataClassification>
+            <SystemDate>2119-06-17</SystemDate>
+            <SystemTime>10:00:00</SystemTime>
+        </TransactionType>
+   
+        <AccomodationInformation>
+            <HotelCode></HotelCode>
+            <HotelPassword></HotelPassword>
+        </AccomodationInformation>
+   
+        <SiteRoomType>
+            <SelectSalesStatus></SelectSalesStatus>
+        </SiteRoomType>
+   
+    </GetSiteRoomTypeRequest>
+</soap:Body>
+
+
+   
+<soap:Body>
+    <ChangePasswordRequest>
+        <TransactionType>
+            <DataFrom>FromPMS</DataFrom>
+            <DataClassification>GetRoomTypeRequest</DataClassification>
+            <SystemDate>2119-06-17</SystemDate>
+            <SystemTime>10:00:00</SystemTime>
+        </TransactionType>
+   
+        <AccomodationInformation>
+            <HotelCode></HotelCode>
+            <HotelPassword></HotelPassword>
+        </AccomodationInformation>
+   
+        <Password>
+            <NewPassword></NewPassword>
+        </Password>
+   
+    </ChangePasswordRequest>
+</soap:Body>
+
+
+
+<soap:Body>
+    <GetHotelInfoRequest>
+        <TransactionType>
+            <DataFrom>FromPMS</DataFrom>
+            <DataClassification>GetRoomTypeRequest</DataClassification>
+            <SystemDate>2119-06-17</SystemDate>
+            <SystemTime>10:00:00</SystemTime>
+        </TransactionType>
+
+        <AccomodationInformation>
+            <HotelCode></HotelCode>
+            <HotelPassword></HotelPassword>
+        </AccomodationInformation>
+    </GetHotelInfoRequest>
+</soap:Body>
+
+<soap:Body>
+    <ConfirmBookingRequest>
+        <TransactionType>
+            <DataFrom>FromPMS</DataFrom>
+            <DataClassification>GetRoomTypeRequest</DataClassification>
+            <SystemDate>2119-06-17</SystemDate>
+            <SystemTime>10:00:00</SystemTime>
+        </TransactionType>
+
+        <AccomodationInformation>
+            <HotelCode></HotelCode>
+            <HotelPassword></HotelPassword>
+        </AccomodationInformation>
+
+        <UnconfirmedBookingInformation>
+            <GetBookingID></GetBookingID>
+        </UnconfirmedBookingInformation>
+
+    </ConfirmBookingRequest>
+</soap:Body>
